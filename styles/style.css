@@ -28,14 +28,18 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: rgb(205, 227, 205);
+    display: flex;
+    justify-content: space-between;
 }
 
 main {
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: calc(var(--footer-height));
 }
 
@@ -59,6 +63,8 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    width: 200px;
+    height: 100%;
 }
 
 
@@ -88,4 +94,19 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+.plants {
+    display: flex;
+}
+
+.plant {
+    border: solid 3px green;
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 15px;
 }
