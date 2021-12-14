@@ -46,7 +46,7 @@
 
 | Functions                                                                                |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| PURE: `render`<Thing>`Card(dog)` : return DOM node |2|
+| PURE: `render<Thing>Card(dog)` : return DOM node |2|
 | PURE: `render<ThingDetail(dog)` : return DOM node |2|
 | ASYNC: `fetch<Things>()` : return array of `<thing>`s from supabase |2|
-| ASYNC: `fetch`<Thing>`(id)` : return single `<thing>` from supabase |2|
+| ASYNC: `fetch<Thing>(id)` : return single `<thing>` from supabase |2|
