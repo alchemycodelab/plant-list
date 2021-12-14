@@ -20,6 +20,10 @@
   - get THIS SINGLE plant from the database
   - display THIS SIGNLE plant (render, and append)
 
+# Step Zero:
+## Make a supabase table with a few rows based on the `<thing>` of your choosing :)
+  - `<thing>`s should have at least 4 properties.
+
 ## Stretch goal ideas
 - Sort `<thing>`s by their name.
 - Add an input that lets the user filter `<thing>`s on the list page.
@@ -28,9 +32,6 @@
 - If you're feeling ambitious, see if you can get it working so that when you click on an item, it deletes from supabase then re-renders the list
 - If you're feeling EVEN MORE ambitious, see if you can figure out how to let users create a `<thing>` in supabase and render it to the page.
 - If you are mega-ultra final-form ambitious: see if you can figure out letting a user update a thing from the detail page.
-
-## Make a supabase table with a few rows based on the `<thing>` of your choosing :)
-  - `<thing>`s should have at least 4 properties.
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
