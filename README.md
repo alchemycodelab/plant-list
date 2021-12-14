@@ -33,19 +33,19 @@
 
 | User should be able to . . .                                                         |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| Visit the deployed pages on GitHub pages, with link in the About section of the Github repo|        1 |
+| Visit the deployed pages on GitHub pages, with link in the About section of the Github repo|        2 |
 
 
 | Events                                                                                |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| On load on the home page, see a list of <thing>s, fetched from supabase                               |        2 |
-| On clicking a <thing>, user should be taken to that <thing>'s detail page.  | 1 |
-| Detail page should get the id from the URL and use that id to fetch that <thing> from supabase.                                      |        1 |
-| Detail page should show the user details about the <thing> with more details than on the list page|     1 |
+| On load on the home page, see a list of <thing>s, fetched from supabase                               |        4 |
+| On clicking a <thing>, user should be taken to that <thing>'s detail page.  | 2 |
+| Detail page should get the id from the URL and use that id to fetch that <thing> from supabase.                                      |        2 |
+| Detail page should show the user details about the <thing> with more details than on the list page|     2 |
 
 | Functions                                                                                |             |
 | :----------------------------------------------------------------------------------- | ----------: |
-| PURE: `render<Thing>Card(dog)` : return DOM node |1|
-| PURE: `render<ThingDetail(dog)` : return DOM node |1|
-| ASYNC: `fetch<Things>()` : return array of <things> from supabase |1|
-| ASYNC: `fetch<Thing>(id)` : return single <thing> from supabase |1|
+| PURE: `render<Thing>Card(dog)` : return DOM node |2|
+| PURE: `render<ThingDetail(dog)` : return DOM node |2|
+| ASYNC: `fetch<Things>()` : return array of <things> from supabase |2|
+| ASYNC: `fetch<Thing>(id)` : return single <thing> from supabase |2|
